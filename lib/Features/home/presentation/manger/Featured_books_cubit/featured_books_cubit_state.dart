@@ -18,7 +18,7 @@ class FeaturedBooksCubitSuccess extends FeaturedBooksCubitState {
 }
 
 class FeaturedBooksCubitFailaure extends FeaturedBooksCubitState {
-  final String errMassage;
+  final String errorMassage;
 
-  const FeaturedBooksCubitFailaure(this.errMassage);
+  const FeaturedBooksCubitFailaure(this.errorMassage);
 }
