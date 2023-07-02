@@ -15,7 +15,10 @@ class BooksDetailsSection extends StatelessWidget {
       children: [
         Padding(
           padding: EdgeInsets.symmetric(horizontal: width * .27),
-          child: const FeaturedListViewItem(),
+          child: const FeaturedListViewItem(
+            imageUrl:
+                'https://www.shutterstock.com/image-illustration/machine-code-languages-on-blue-technology-1680857539',
+          ),
         ),
         const SizedBox(
           height: 43,
