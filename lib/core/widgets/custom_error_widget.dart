@@ -8,9 +8,12 @@ class CutomErrorWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(
-      errorMassage,
-      style: Styles.textStyle18,
+    return Center(
+      child: Text(
+        errorMassage,
+        style: Styles.textStyle18,
+        textAlign: TextAlign.center,
+      ),
     );
   }
 }
