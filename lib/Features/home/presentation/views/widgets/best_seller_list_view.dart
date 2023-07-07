@@ -1,9 +1,7 @@
 import 'package:bookly_app/Features/home/presentation/manger/Featured_books_cubit/featured_books_cubit_cubit.dart';
-import 'package:bookly_app/Features/home/presentation/manger/newset_books_cubit/newset_books_cubit.dart';
 import 'package:bookly_app/core/widgets/custom_loading_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
 import '../../../../../core/widgets/custom_error_widget.dart';
 import 'best_seller_list_view_item .dart';
 
